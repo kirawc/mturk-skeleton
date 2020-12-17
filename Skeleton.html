@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Load in jquery library; link to css + js scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="Skeleton.css">
+    <script src="Skeleton.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- Start page -->
+    <div id="landingPage" class="instructions">
+      <b>Welcome!</b>
+      <br><br>
+      You'll be weighing in on groundbreaking research
+      on a fundamental question of the universe: are cats or dogs better?
+      <br><br>
+      <button id="landingButton"> View instructions </button>
+    </div>
+
+    <!-- Instructions on how to do the task -->
+    <div id="taskExpl" class="instructions">
+
+      On each trial, pick a pet. <br><br>
+      To select the pet on the left, press "c".
+      <br>
+      To select the pet on the right, press "m".
+      <br><br>
+      <button id="startButton"> Start task </button>
+
+    </div>
+
+    <!-- End of task -->
+    <div id="endPage" class="instructions">
+      Task finished!
+      <br><br>
+      The votes have all been tallied & it turns out that cats are indeed the best.
+      <br><br>
+      Thank you for your contributions to the forefront of human knowledge.  
+    </div>
+
+    <!-- Where actual task trials appear  -->
+    <div id="exptBox" class="expt">
+
+      <div id = "promptBox" class="expt">
+        Who's a good boy?
+      </div>
+
+      <div id = "option1Box" class="expt">
+        <img id="opt1Img" src="" class="expt" height=150></img><br><br>
+        press c
+      </div>
+
+      <div id = "option2Box" class="expt">
+        <img id="opt2Img" src="" class="expt" height=150></img><br><br>
+        press m
+      </div>
+
+    </div>
+    </div>
+  </body
+
+</html>
