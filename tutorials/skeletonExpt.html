@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <link rel="stylesheet" href="skeletonExpt.css">
+      <script src="skeletonExpt.js"></script>
+    </head>
+
+    <body>
+
+      <!-- start page, what loads at the very first -->
+      <div id="landingPage" class="instructions">
+        Welcome <br><br>
+        <button id="landingButton" class="button"> Go to instructions </button>
+      </div>
+
+      <!-- preload -->
+      <div id="preload" class="preload">
+      </div>
+
+      <!-- instructions -->
+      <div id="taskInstr" class="instructions">
+        Explain task here <br><br>
+        <button id="practiceButton" class="button"> Start practice </button>
+      </div>
+
+      <!-- end practice -->
+      <div id="endpracticePage" class="instructions" > Practice finished. <br><br> Trials will start shortly.
+      </div>
+
+      <!-- main experiment box -->
+      <div id="exptBox" class="expt">
+
+        <!-- stimuli -->
+        <div id="stim1" class="objectDiv">
+  				<img id="img1" src="" width=100 style="position: absolute">
+  			</div>
+
+        <div id="stim2" class="objectDiv">
+  				<img id="img2" src="" width=100 style="position: absolute">
+  			</div>
+
+      </div>
+
+      <!-- end page -->
+      <div id="endPage" class="instructions">
+
+        This is the end. (In final version, there will be a button to click to send through PHP to server)
+
+    </body>
+
+</html>

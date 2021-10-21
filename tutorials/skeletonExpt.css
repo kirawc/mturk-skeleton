@@ -1,0 +1,50 @@
+/*  */
+
+body {
+	font-size: 14pt;
+  font-family: sans-serif;
+	padding-left: 30%;
+	padding-top: 5%;
+	max-width: 55%;
+}
+
+/* Define the classes (define with . in html) */
+.preload {
+	display: none;
+}
+
+.button {
+  background-color: #686868;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.instructions {
+	display: none; /* none because initially you don't want it to show */
+	text-align: center justify;
+}
+
+.expt {
+	display: none;
+}
+
+/* Define specific ids (define with # in html) */
+#exptBox {
+	display: none;
+	width: 500px;
+}
+
+#endPage {
+	display: none;
+	text-align: justify;
+}
+
+#endpracticePage {
+	display: none;
+	text-align: justify;
+}
